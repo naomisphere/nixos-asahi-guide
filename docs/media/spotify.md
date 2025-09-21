@@ -7,7 +7,7 @@ It is no secret Spotify isn't officially supported for `aarch64-linux`.\
 However, it's still absolutely possible to get Spotify up in a few ways, the most popular one being simply using the web player (which is what we'll be doing here, using a trick to make it more appealing).
 
 The recommended browser for this guide is `Chromium`, as it has the `--app` feature: it is as simple as:
-```
+```bash
 chromium --app="https://open.spotify.com"
 ```
 
@@ -18,7 +18,7 @@ On KDE Plasma:
 - Click on a category of your choice (I recommend Multimedia, it doesn't matter anyway)
 - Click 'New Item', name it 'Spotify'
 - On the 'Program:' field, enter:
-```
+```bash
 chromium --app="https://open.spotify.com"
 ```
 - Click 'Save'
