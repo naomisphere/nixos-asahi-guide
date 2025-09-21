@@ -6,13 +6,13 @@
 If you want to make your life easier by not having to hold the Power button to boot into macOS again while having NixOS as your startup disk, then ```asahi-bless``` is the answer.
 
 Made by [WhatAmISupposedToDoHere](https://github.com/WhatAmISupposedToPutHere) (I don't know, either!), it is essentially a ```bless``` command but for Asahi Linux, that allows you to set the boot volume with a variety of choices. It is as simple as running:
-```bash
+```
 sudo asahi-bless
 ```
 
 This should do for the most part, however, if you want more precision, here's what you can do (```sudo asahi-bless --help```):
 
-```bash
+```
 Usage: asahi-bless [OPTIONS]
 
 Options:
@@ -43,7 +43,7 @@ On KDE Plasma:
 Now, when you open your *Reboot to macOS* app, you will be asked to enter your password, and then, your Mac will reboot onto macOS.
 
 If you have other distros, you can also make applications such as *Reboot to Fedora*, etc. by using, for example:
-```
+```bash
 /bin/sh -c 'sudo asahi-bless -n -y --set-boot "Fedora" && reboot'
 ```
 "Fedora" here is the name I gave my Fedora install, which may be different you, or perhaps it may be "Gentoo", "Deepin", etc.
